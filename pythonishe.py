@@ -1,7 +1,9 @@
+"""Prostoy kalkulyator."""
+
 first = float(input("Enter your first number: "))
 second = float(input("Enter your second number: "))
 operation = input("Enter sign of operation: ")
-result = 0
+result = 0.0
 if operation == "+":
     result = first + second
 elif operation == "-":
